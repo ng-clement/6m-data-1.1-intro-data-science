@@ -40,12 +40,6 @@ Explain the difference between Data Analytics, Data Science, and Artificial Inte
 | **Question** | "Why did sales drop?" | "How many sales next month?" | "Auto-reorder when stock is low" |
 | **Analogy** | Rear-view mirror | Weather forecast | Self-driving car |
 
-**Key point:** You cannot build AI without a solid Data Science foundation, and you cannot do Data Science without clean, well-collected data. The hierarchy is a staircase — you cannot skip floors.
-
-### 🛠️ Hands-On Activity: "The Company Diagnostic" (35 min)
-
-**Scenario:** A CEO wants to implement GPT-4 across their company, but all their data is in paper files.
-
 **The Matrix (20 min):** Students evaluate 5 scenarios and classify each as Analytics, Data Science, or AI:
 1. Fraud detection system that flags unusual transactions automatically
 2. Monthly sales pivot tables for the finance team
@@ -53,22 +47,11 @@ Explain the difference between Data Analytics, Data Science, and Artificial Inte
 4. Predicting customer churn probability next quarter
 5. Generating a bar chart of last year's revenue by region
 
-**The Python Peek (15 min):** Demonstrate the distinction between reporting and modelling:
+**Key point:** You cannot build AI without a solid Data Science foundation, and you cannot do Data Science without clean, well-collected data. The hierarchy is a staircase — you cannot skip floors.
 
-```python
-import pandas as pd
+### 🛠️ Hands-On Activity: "The Company Diagnostic" (35 min)
 
-data = {'Month': ['Jan', 'Feb', 'Mar'], 'Sales': [100, 150, 130]}
-df = pd.DataFrame(data)
-
-# Analytics: What happened?
-print(df)
-
-# Data Science: What will happen?
-growth_rate = (df['Sales'].iloc[1] - df['Sales'].iloc[0]) / df['Sales'].iloc[0]
-predicted_march = df['Sales'].iloc[1] * (1 + growth_rate)
-print(f"Predicted April sales: {predicted_march:.0f}")
-```
+**Scenario:** A CEO wants to implement GPT-4 across their company, but all their data is in paper files.
 
 **Discussion Questions:**
 - "If the CEO scans all paper files to PDFs, can they build AI tomorrow? What steps are still missing?"
