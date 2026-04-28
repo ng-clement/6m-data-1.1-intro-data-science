@@ -43,11 +43,11 @@ Explain the difference between Data Analytics, Data Science, and Artificial Inte
 **Activity:**
 
 1. **The Matrix:** Classify each of the following 5 scenarios as Data Analytics, Data Science, or AI — and explain your reasoning:
-   - A bank system that automatically flags unusual transactions in real time
-   - A manager building a monthly pivot table of sales figures
-   - A self-driving car that brakes automatically when it detects an obstacle
-   - A model that predicts which customers are likely to churn next quarter
-   - A dashboard showing last year's revenue broken down by region
+   - A bank system that automatically flags unusual transactions in real time    - AI
+   - A manager building a monthly pivot table of sales figures                   - DA
+   - A self-driving car that brakes automatically when it detects an obstacle    - AI
+   - A model that predicts which customers are likely to churn next quarter      - DS
+   - A dashboard showing last year's revenue broken down by region               - DA
 
 <details>
 <summary>Answer Key — The Matrix</summary>
