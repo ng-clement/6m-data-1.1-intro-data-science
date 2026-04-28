@@ -12,9 +12,10 @@ Break into small groups and answer the following. Use your knowledge of Structur
 
 *List at least 3 examples for each category that Netflix likely collects about you:*
 
-* **Explicit Data (Things you click):** (e.g., Thumbs up/down...)  
+* **Explicit Data (Things you click):** (e.g., Thumbs up/down...)
+    rating, selection of video, 
 * **Implicit Data (Things you do):** (e.g., Did you pause at a scary scene? Did you binge-watch 5 episodes?)
-
+    category of selection, duration spent, 
 ### **Part 2: Structured vs. Unstructured**
 
 * **Structured Data:** User ID, Movie Genre, Release Year.  
